@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url(./img.jfif); */
+  /* background-repeat: no-repeat;
+    background-size: cover */
+  background-color: black;
+}
+
+#main {
+  /* width: 800px;
+    height: 400px; */
+  /* background-color:  red; */
+  position: relative;
+  top: 32px;
+  left: 481px;
+  color: greenyellow;
+  font-size: 40px;
+  margin-bottom: 30px;
+  /* display: flex;
+    justify-content: center; */
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 81px;
+  font-family: "Blaka Hollow", cursive;
+  text-shadow: 2px 3px #ff0000;
+  margin: 103px 0 100px 0;
+}
+#ipbtn {
+  position: relative;
+  left: 587px;
+  top: 63px;
+  display: inline-block;
+  margin: 20px;
+}
+#ok {
+  width: 178px;
+  height: 43px;
+  position: relative;
+  right: 48px;
+  border-radius: 10px;
+  background-color: rgb(124, 198, 222);
+  font-family: "Blaka Hollow", cursive;
+  font-size: 30px;
+}
+#cancel {
+  width: 186px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: rgb(243, 124, 142);
+  font-family: "Blaka Hollow", cursive;
+  font-size: 30px;
+}
+#Rock {
+  width: 150px;
+  height: 43px;
+  position: relative;
+  right: 70px;
+  border-radius: 10px;
+  background-color: rgb(234, 87, 87);
+  font-family: "Blaka Hollow", cursive;
+  font-size: 30px;
+  /* margin :  20px; */
+}
+
+#Paper {
+  width: 150px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: rgb(240, 241, 232);
+  font-family: "Blaka Hollow", cursive;
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+}
+#Scissor {
+  width: 150px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: rgba(123, 123, 254, 0.982);
+  font-family: "Blaka Hollow", cursive;
+  font-size: 30px;
+  position: relative;
+  right: 20px;
+}
